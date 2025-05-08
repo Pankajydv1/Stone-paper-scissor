@@ -9,11 +9,11 @@ num2=int(input("enter 2nd number :"))
 opr=input("enter operator:")
 if opr=="+":
     print(num1+num2)
-elif opr=="-":
+if opr=="-":
     print(num1-num2)
-elif opr=="*":
+if opr=="*":
     print(num1*num2)
-elif opr=="/":
+if opr=="/":
     print(num1/num2)
-else:
+if opr!="+" and opr!="-" and opr!="*" and opr!="/":
     print("invalid operation")
