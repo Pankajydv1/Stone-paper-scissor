@@ -68,12 +68,12 @@ while True :
             print("your score is ",d)
             print("Computer score is ",b)
             break
-        if b>=d :
+        if b>d :
             print("Computer Won....")
             print("your score is ", d)
             print("Computer score is ", b)
             break
-        if b<=d :
+        if b<d :
             print("You Won....")
             print("your score is ", d)
             print("Computer score is ", b)
