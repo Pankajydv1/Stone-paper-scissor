@@ -25,12 +25,12 @@ while True :
                     print("Both you and computer have Selected Stone..")
                     b = b + 1
                     d = d + 1
-                if i == 2:
+                if i == 3:
                     print("Computer won")
                     print("Computer has selected Stone & You have selected Scissor..")
                     b = b + 1
                     d = d + 0
-                if i == 3:
+                if i == 2:
                     print("You won")
                     print("Computer has selected Stone & You have selected Paper..")
                     b = b + 0
